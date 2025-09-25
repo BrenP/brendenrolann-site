@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+  .toolbar-nav {
+    height: 40px !important;
+    padding: 0 0.5rem !important;
+    border-radius: 18px !important;
+  }
+  .toolbar-nav button {
+    font-size: 0.85rem !important;
+    margin: 0 0.5rem !important;
+  }
+}
