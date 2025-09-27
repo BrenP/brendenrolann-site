@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Toolbar from './components/Toolbar';
+import Toolbar from './components/Toolbar/Toolbar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
@@ -16,7 +16,7 @@ function App() {
         <section id="about"><About /></section>
         <section id="skills"><Skills /></section>
         <section id="experience"><WorkExperience /></section>
-  <section id="contact"><Contact /></section>
+        <section id="contact"><Contact /></section>
       </div>
     </>
   );

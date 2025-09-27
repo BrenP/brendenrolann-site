@@ -39,6 +39,17 @@ export default function Home() {
         position: 'relative',
         zIndex: 1,
       }}>
+        {/* Video section */}
+        <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+          <video
+            src="/assets/output-alpha.webm"
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ maxWidth: '480px', width: '100%', borderRadius: '12px', boxShadow: '0 2px 16px rgba(0,0,0,0.18)' }}
+          />
+        </div>
         <h2 style={{
           fontSize: '2.5rem',
           fontWeight: 550,
@@ -94,7 +105,7 @@ export default function Home() {
               opacity: downloadEnabled ? 1 : 0.6,
             }}
           >
-            Download Resume{!downloadEnabled && ' (wait 3s...)'}
+            Download Resume
           </a>
         </div>
       </section>
