@@ -39,7 +39,7 @@ export default function Home() {
         position: 'relative',
         zIndex: 1,
       }}>
-        {/* Video section */}
+        {/* Video section disabled
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
           <video
             src="/assets/output-alpha.webm"
@@ -50,6 +50,7 @@ export default function Home() {
             style={{ maxWidth: '480px', width: '100%', borderRadius: '12px', boxShadow: '0 2px 16px rgba(0,0,0,0.18)' }}
           />
         </div>
+        */}
         <h2 style={{
           fontSize: '2.5rem',
           fontWeight: 550,
